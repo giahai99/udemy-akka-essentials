@@ -1,0 +1,122 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (Private Build Java 11.0.15)
+[debug]       Load.loadUnit: plugins took 53.75662ms
+[debug]       Load.loadUnit: defsScala took 0.238626ms
+[debug] [Loading] Scanning directory /home/ws0625/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/ws0625/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 12.255731 ms
+[debug]           Load.resolveProject(global-plugins) took 33.772804ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /home/ws0625/.sbt/1.0/plugins, plugins: List(<none>))) took 66.931448ms
+[debug] [Loading] Done in /home/ws0625/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 81.902233ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.166512ms
+[debug]     Load.loadUnit(file:/home/ws0625/.sbt/1.0/plugins/, ...) took 142.189965ms
+[debug]   Load.apply: load took 271.740215ms
+[debug]   Load.apply: resolveProjects took 3.964823ms
+[debug]   Load.apply: finalTransforms took 42.682333ms
+[debug]   Load.apply: config.delegates took 4.792245ms
+[debug]   Load.apply: Def.make(settings)... took 258.622984ms
+[debug]   Load.apply: structureIndex took 65.00467ms
+[debug]   Load.apply: mkStreams took 1.070711ms
+[info] loading global plugins from /home/ws0625/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 1593.190225ms
+[debug]           Load.loadUnit: plugins took 12.924966ms
+[debug]           Load.loadUnit: defsScala took 0.003509ms
+[debug] [Loading] Scanning directory /home/ws0625/akka-prjs/udemy-akka-essentials/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/ws0625/akka-prjs/udemy-akka-essentials/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.785792 ms
+[debug]               Load.resolveProject(udemy-akka-essentials-build) took 0.982361ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id udemy-akka-essentials-build, base: /home/ws0625/akka-prjs/udemy-akka-essentials/project, plugins: List(<none>))) took 3.232639ms
+[debug] [Loading] Done in /home/ws0625/akka-prjs/udemy-akka-essentials/project, returning: (udemy-akka-essentials-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 4.965352ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.011315ms
+[debug]         Load.loadUnit(file:/home/ws0625/akka-prjs/udemy-akka-essentials/project/, ...) took 18.495691ms
+[debug]       Load.apply: load took 19.794825ms
+[debug]       Load.apply: resolveProjects took 0.145071ms
+[debug]       Load.apply: finalTransforms took 10.937748ms
+[debug]       Load.apply: config.delegates took 0.461561ms
+[debug]       Load.apply: Def.make(settings)... took 60.750743ms
+[debug]       Load.apply: structureIndex took 20.368586ms
+[debug]       Load.apply: mkStreams took 0.002647ms
+[info] loading project definition from /home/ws0625/akka-prjs/udemy-akka-essentials/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 244.757665ms
+[debug]     Load.loadUnit: defsScala took 0.002528ms
+[debug] [Loading] Scanning directory /home/ws0625/akka-prjs/udemy-akka-essentials
+[debug]       Load.loadUnit: mkEval took 4.204269ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.631701 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 2.747117ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /home/ws0625/akka-prjs/udemy-akka-essentials, plugins: List(<none>))) took 5.182796ms
+[debug] [Loading] Done in /home/ws0625/akka-prjs/udemy-akka-essentials, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1444.152221ms
+[debug]     Load.loadUnit: cleanEvalClasses took 3.715352ms
+[debug]   Load.loadUnit(file:/home/ws0625/akka-prjs/udemy-akka-essentials/, ...) took 1693.171242ms
+[debug] Load.apply: load took 1695.923223ms
+[debug] Load.apply: resolveProjects took 0.111191ms
+[debug] Load.apply: finalTransforms took 18.523871ms
+[debug] Load.apply: config.delegates took 0.454083ms
+[debug] Load.apply: Def.make(settings)... took 112.734643ms
+[debug] Load.apply: structureIndex took 32.160655ms
+[debug] Load.apply: mkStreams took 0.00175ms
+[info] set current project to udemy-akka-essentials (in build file:/home/ws0625/akka-prjs/udemy-akka-essentials/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///home/ws0625/.sbt/1.0/server/0596952fb5b4627e179b/sock
+[debug] Writing bsp connection file
+[info] started sbt server
